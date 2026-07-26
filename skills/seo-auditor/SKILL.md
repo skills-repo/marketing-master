@@ -1,54 +1,56 @@
 ---
 name: seo-auditor
-description: SEO 审计与优化：关键词研究、技术 SEO、内容优化、外链分析
+description: SEO 与内容营销：关键词研究、技术 SEO 审计、竞品分析、内容策略与 SERP 优化
 source:
-  type: original
+  type: derived
   repo: skills-repo/marketing-master
   path: skills/seo-auditor/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/aradotso/marketing-skills/seo-content-marketing-claude-skills
 metadata:
-  category: SEO
+  category: 营销
   platform: Web
-  difficulty: 入门
+  difficulty: 进阶
 ---
 
 # SEO 审计与优化
 
-> 让搜索引擎找到你。从关键词到技术 SEO，为独立开发者的产品提供可落地的优化方案。
+> 全面的 SEO 与内容营销套件：关键词聚类、内容审计、技术 SEO 诊断、竞品分析、SERP 追踪。
 
 ## 能力
 
-- **关键词研究**：长尾关键词发现、搜索意图分析、竞品关键词差距
-- **技术 SEO**：网站结构优化、robots.txt/sitemap、Core Web Vitals
-- **内容优化**：标题标签、meta description、H 标签层级、内容结构
-- **外链分析**：外链质量评估、内链结构优化、锚文本策略
+- **关键词研究**：关键词聚类、搜索意图映射、机会评分
+- **内容审计**：全站内容质量审查、去重建议、优化方案
+- **技术 SEO**：爬虫诊断、页面速度分析、结构化数据验证
+- **竞品分析**：反向链接、主题覆盖、精选摘要差距
+- **内容策略**：AI 内容摘要生成、编辑日历规划、本地 SEO
 
 ## 使用方式
 
 ```
-/seo-auditor 分析我的网站 https://example.com 的 SEO 问题
-/seo-auditor 帮我找「在线思维导图」的长尾关键词
-/seo-auditor 优化这篇博客的 SEO：{url}
+/seo-auditor 分析这个网站的 SEO 表现
+/seo-auditor 为"项目管理软件"做关键词研究
+/seo-auditor 检查这个页面的技术 SEO 健康状况
 ```
 
 ## 工作流
 
-1. 输入目标网站 URL 或关键词
-2. AI 分析当前 SEO 状态
-3. 按优先级输出优化建议（高/中/低影响）
-4. 生成具体的代码/内容修改方案
-5. 预估优化后的流量变化
+1. 确定 SEO 目标和分析范围
+2. 执行关键词研究和竞品分析
+3. 运行技术 SEO 爬虫诊断
+4. 生成内容审计报告
+5. 输出优化建议和行动计划
 
 ## 适用场景
 
-- 新项目上线前的 SEO 准备
-- 已有网站的流量下滑排查
-- 竞品 SEO 策略分析
-- 博客/内容站的 SEO 优化
+- 网站 SEO 健康检查
+- 内容营销策略规划
+- 竞品 SEO 分析
+- 搜索引擎排名优化
 
 ## 限制
 
-- 不涉及付费搜索广告（SEM/PPC）
-- 不保证特定排名提升
-- 需要用户自行实施技术修改
+- 依赖搜索引擎公开数据
+- 不涉及付费搜索（SEM/PPC）
+- 不涉及社交媒体 SEO

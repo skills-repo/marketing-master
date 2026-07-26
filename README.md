@@ -1,22 +1,46 @@
-# Marketing Master — 独立开发者营销技能库
+# 营销大师技能库
 
-> 面向独立开发者和小团队的营销技能集，覆盖 SEO、文案、内容策略、着陆页优化。
+> AI Agent Skills for Marketing —— 覆盖 SEO 审计、文案撰写、内容策略、着陆页构建
 
-## 技能列表
+## 定位
 
-| 技能 | 描述 | 难度 | 来源 |
+为独立开发者和小团队提供一套可安装的 AI Agent 营销技能，让 Claude Code 成为你的营销搭档。
+
+## 核心理念
+
+> 好产品需要好营销。用 AI 降低营销门槛，让独立开发者也能专业地推向市场。
+
+- **数据驱动**——从关键词研究到转化率优化，每个决策有数据支撑
+- **框架优先**——PAS/AIDA/StoryBrand 等成熟框架，降低创意门槛
+- **一站完成**——从策略规划到落地执行，覆盖营销全链条
+
+## 技能清单
+
+| 环节 | 技能 | 描述 | 来源 |
 |------|------|------|------|
-| [seo-auditor](skills/seo-auditor/SKILL.md) | SEO 审计与优化：关键词研究、技术 SEO、内容优化、外链分析 | 入门 | 原创 |
-| [copywriting-pro](skills/copywriting-pro/SKILL.md) | 营销文案撰写：广告语、产品描述、邮件、社交媒体、品牌故事 | 入门 | 原创 |
-| [content-strategist](skills/content-strategist/SKILL.md) | 内容策略规划：内容日历、分发渠道、内容复用、受众分析 | 进阶 | 原创 |
-| [landing-page-builder](skills/landing-page-builder/SKILL.md) | 着陆页设计与优化：结构、文案、CTA、A/B 测试，提升转化率 | 入门 | 原创 |
+| 🔍 SEO 审计 | `seo-auditor` | SEO 与内容营销：关键词聚类、技术 SEO、竞品分析、SERP 追踪 | [衍生](https://skills.sh/aradotso/marketing-skills/seo-content-marketing-claude-skills) |
+| ✍️ 文案撰写 | `copywriting-pro` | 营销文案：PAS/AIDA/StoryBrand 框架，着陆页、广告文案 | [衍生](https://skills.sh/onewave-ai/claude-skills/landing-page-copywriter) |
+| 📅 内容策略 | `content-strategist` | 编辑日历、主题集群设计、内容衰减检测、分发策略 | [衍生](https://skills.sh/agricidaniel/claude-blog/blog-calendar) |
+| 🎯 着陆页 | `landing-page-builder` | 着陆页构建：高转化结构、视觉层次、响应式布局、CTA 优化 | [衍生](https://skills.sh/nexu-io/open-design/copywriting) |
 
-## 安装
+## 快速开始
 
 ```bash
-git clone https://github.com/skills-repo/marketing-master.git
+npx skills add skills-repo/marketing-master@seo-auditor -g -y
+npx skills add skills-repo/marketing-master@copywriting-pro -g -y
+npx skills add skills-repo/marketing-master@content-strategist -g -y
+npx skills add skills-repo/marketing-master@landing-page-builder -g -y
 ```
 
-## 贡献
+## 推荐工作流
 
-欢迎提交 Issue 或 PR 补充新的营销技能。请参考 [CONTRIBUTING.md](../skills-repo-admin/rules/skill-format.md) 的格式规范。
+```
+SEO 审计 → 内容策略 → 文案撰写 → 着陆页构建
+seo-       content-     copywriting-  landing-
+auditor    strategist   pro           page
+                                   builder
+```
+
+## 许可
+
+MIT

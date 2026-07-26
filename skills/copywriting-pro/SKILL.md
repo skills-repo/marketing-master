@@ -1,64 +1,56 @@
 ---
 name: copywriting-pro
-description: 营销文案撰写：广告语、产品描述、邮件、社交媒体、品牌故事
+description: 营销文案撰写：PAS/AIDA/StoryBrand 框架，着陆页、广告文案、主页文案
 source:
-  type: original
+  type: derived
   repo: skills-repo/marketing-master
   path: skills/copywriting-pro/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/onewave-ai/claude-skills/landing-page-copywriter
 metadata:
-  category: 文案
-  platform: 通用
+  category: 营销
+  platform: Web
   difficulty: 入门
 ---
 
 # 营销文案撰写
 
-> 好产品需要好文案。为独立开发者生成高转化率的营销文案，覆盖从产品描述到社交媒体的全场景。
+> 高转化率文案撰写：PAS（问题-激化-解决）、AIDA、StoryBrand 框架驱动，着陆页和广告文案。
 
 ## 能力
 
-- **产品文案**：产品描述、功能亮点提炼、价值主张陈述
-- **广告文案**：Google/Facebook 广告语、CTA 按钮文案、A/B 测试变体
-- **邮件文案**：欢迎邮件、产品更新通知、促销活动邮件
-- **社交媒体文案**：Twitter/X 推文、LinkedIn 帖子、Product Hunt 发布文案
-- **品牌故事**：About 页面、品牌定位陈述、创始人故事
+- **着陆页文案**：标题、价值主张、CTA 按钮、信任标识
+- **框架选择**：PAS、AIDA、StoryBrand 等 6 种文案框架
+- **目标受众**：根据产品特性和用户画像定制文案风格
+- **A/B 测试**：多版本文案变体生成
+- **SEO 友好**：关键词自然融入，搜索引擎可读
 
 ## 使用方式
 
 ```
-/copywriting-pro 为我的 API 工具写一段 Product Hunt 发布文案
-/copywriting-pro 优化这个着陆页的标题和副标题：{url}
-/copywriting-pro 写一封 SaaS 产品价格调整通知邮件
+/copywriting-pro 为这个 SaaS 产品写着陆页文案
+/copywriting-pro 用 PAS 框架改写这段产品介绍
+/copywriting-pro 为这个广告生成 3 个标题变体
 ```
 
 ## 工作流
 
-1. 描述产品或目标受众
-2. AI 分析目标用户的痛点和动机
-3. 生成 3 个文案变体（理性/情感/混合）
-4. 标注每个变体的适用场景
-5. 提供 A/B 测试建议
-
-## 文案原则
-
-| 原则 | 说明 |
-|------|------|
-| 用户视角 | 说用户得到的，不说你做了什么 |
-| 具体优先 | 数字 > 形容词，案例 > 承诺 |
-| 行动驱动 | 每个文案包含清晰的下一步 |
-| 简洁有力 | 删到不能再删为止 |
+1. 收集产品信息和目标受众
+2. 选择文案框架（PAS/AIDA/StoryBrand）
+3. 编写标题、价值主张、CTA
+4. 生成完整页面段落
+5. 审查转化率优化点
 
 ## 适用场景
 
-- 新产品发布文案
-- 着陆页文案优化
-- 邮件营销内容
-- 社交媒体运营
+- 产品着陆页文案
+- 广告创意文案
+- 主页/官网文案
+- 营销邮件文案
 
 ## 限制
 
-- 不涉及多语言本地化（仅中文/英文）
-- 不涉及法律/合规审查
-- 生成文案需根据实际效果迭代
+- 文案效果依赖产品定位准确性
+- 不涉及多语言翻译
+- 不涉及品牌语音体系构建
