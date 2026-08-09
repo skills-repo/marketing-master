@@ -44,3 +44,23 @@ auditor    strategist   pro           page
 ## 许可
 
 MIT
+
+## 安装 / Install
+
+整库安装（含全部 4 个子技能）与单技能安装命令如下，按需在终端执行：
+
+```
+npx skills add skills-repo/marketing-master
+npx skills add skills-repo/marketing-master@seo-auditor
+```
+
+> 把 `@seo-auditor` 换成任意子技能目录名即可单独安装：`seo-auditor`、`copywriting-pro`、`content-strategist`、`landing-page-builder`。
+
+## 子技能索引
+
+| 子技能 | 说明 |
+|--------|------|
+| seo-auditor | SEO 与内容营销：关键词聚类、技术 SEO、竞品分析、SERP 追踪 |
+| copywriting-pro | 营销文案：PAS/AIDA/StoryBrand 框架，着陆页、广告文案 |
+| content-strategist | 编辑日历、主题集群设计、内容衰减检测、分发策略 |
+| landing-page-builder | 着陆页构建：高转化结构、视觉层次、响应式布局、CTA 优化 |
