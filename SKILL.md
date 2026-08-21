@@ -53,6 +53,16 @@ tags:
 | content-strategist | `skills/content-strategist` | 主题集群、编辑日历、内容衰减检测 |
 | landing-page-builder | `skills/landing-page-builder` | 高转化结构、视觉层次、响应式、CTA 优化 |
 
+## 可运行脚本（scripts/）
+
+| 脚本 | 用途 | 关键参数 |
+|------|------|----------|
+| `scripts/editorial_calendar.py` | 按主题集群与频率生成 Markdown 编辑日历 | `--pillars --freq --start --weeks` |
+| `scripts/decay_score.py` | 老文内容衰减打分与更新优先级 | `--title/--days/--drop/--core` 或 STDIN |
+| `scripts/keyword_cluster.py` | 关键词按意图（信息/商业/交易）聚类 | `--pair "词" "意图"` 或 STDIN |
+
+> 这三个脚本把 references/ 中的方法落成可执行的工具，直接 `python3 scripts/<name>.py --help` 查看用法。
+
 ## 适用场景
 
 - 网站 SEO 健康检查与搜索引擎排名优化

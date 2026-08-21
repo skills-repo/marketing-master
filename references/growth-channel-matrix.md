@@ -46,9 +46,10 @@
 
 ### 3.2 关键词按意图聚类（可运行）
 
+可运行版本见 `scripts/keyword_cluster.py`，支持 `--pair "关键词" "意图"` 或 STDIN 多行：
+
 ```python
-# keyword_cluster.py
-# 运行: python3 keyword_cluster.py
+# keyword_cluster.py —— 运行: python3 scripts/keyword_cluster.py
 KW = {
     "项目管理软件": "商业", "好用的项目管理工具": "商业",
     "项目管理是什么": "信息", "如何做项目排期": "信息",
