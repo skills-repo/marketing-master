@@ -49,6 +49,11 @@ metadata:
 - 竞品 SEO 分析
 - 搜索引擎排名优化
 
+## 相关参考（Playbook）
+
+完整的 SEO 审计工作流（关键词研究 → 技术诊断 → 竞品分析 → 行动计划）、按意图聚类的可运行命令，
+以及「SEO→内容→文案→落地」黄金顺序的决策树，见 [`references/growth-channel-matrix.md`](../../references/growth-channel-matrix.md) 第 3.1–3.2 节。
+
 ## 限制
 
 - 依赖搜索引擎公开数据

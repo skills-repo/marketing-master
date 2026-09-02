@@ -49,6 +49,12 @@ metadata:
 - 主页/官网文案
 - 营销邮件文案
 
+## 相关参考（Playbook）
+
+PAS / AIDA / StoryBrand 三种框架的场景选择对照表、与着陆页结构的衔接方式，以及
+「文案堆砌关键词」「文案脱离产品定位」等典型陷阱的规避清单，
+见 [`references/growth-channel-matrix.md`](../../references/growth-channel-matrix.md) 第 3.3 节与第 4 节。
+
 ## 限制
 
 - 文案效果依赖产品定位准确性

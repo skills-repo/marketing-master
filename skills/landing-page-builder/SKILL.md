@@ -49,6 +49,11 @@ metadata:
 - 注册/订阅页面
 - SaaS 试用转化页
 
+## 相关参考（Playbook）
+
+Hero→价值→功能→证明→CTA 五段式着陆页骨架、单一主 CTA 原则，以及上线前的响应式
+（375/768/1280 三档）与触控区检查清单，见 [`references/growth-channel-matrix.md`](../../references/growth-channel-matrix.md) 第 3.4 节与第 5 节。
+
 ## 限制
 
 - 不涉及后端表单处理和数据分析

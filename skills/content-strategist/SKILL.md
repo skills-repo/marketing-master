@@ -49,6 +49,12 @@ metadata:
 - 内容更新和优化
 - 多平台内容编排
 
+## 相关参考（Playbook）
+
+「新建 vs 更新 vs 重组」决策树、主题集群（根支柱 + 支撑文）设计范式、编辑日历与内容衰减
+两个脚本的完整运行示例，以及分发策略与上线前检查清单，
+见 [`references/content-strategy-playbook.md`](../../references/content-strategy-playbook.md)。
+
 ## 限制
 
 - 内容质量取决于对行业的理解深度

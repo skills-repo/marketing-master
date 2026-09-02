@@ -33,25 +33,25 @@ tags:
 
 ## 能力索引（超级技能路由）
 
-| 任务 | 读取 / 调用 | 关键词（grep 线索） |
-|------|------------|---------------------|
-| 全流程技能选型与方法论 | `references/growth-channel-matrix.md` | growth-channel-matrix, 黄金顺序, 技能选型, 决策树, 关键词聚类, 着陆页骨架 |
-| 内容策略规划方法论 | `references/content-strategy-playbook.md` | content-strategy-playbook, 主题集群, 编辑日历, 内容衰减, 分发策略 |
-| SEO 审计与内容营销 | `skills/seo-auditor/SKILL.md` | seo-auditor, 关键词, 技术SEO, 竞品分析, SERP |
-| 高转化文案撰写 | `skills/copywriting-pro/SKILL.md` | copywriting-pro, PAS, AIDA, StoryBrand, 文案, CTA |
-| 内容策略规划 | `skills/content-strategist/SKILL.md` | content-strategist, 编辑日历, 主题集群, 内容衰减 |
-| 着陆页构建 | `skills/landing-page-builder/SKILL.md` | landing-page, 转化率, Hero, 视觉层次, 响应式 |
+本技能采用渐进式加载。`SKILL.md` 仅作路由，**按需**读取下列条目，避免一次性占满上下文。
+
+### 深层 playbook（`references/`，串联与决策）
+
+| 任务 | 读取 | 关键词（grep 线索） |
+|------|------|---------------------|
+| 全流程技能选型：四种能力怎么串、黄金顺序、从哪开始的决策树、典型陷阱 | `references/growth-channel-matrix.md` | growth-channel-matrix, 黄金顺序, 技能选型, 决策树, 关键词聚类, 着陆页骨架 |
+| 内容策略方法论：新建/更新/重组决策树、主题集群、编辑日历、内容衰减、分发 | `references/content-strategy-playbook.md` | content-strategy-playbook, 主题集群, 编辑日历, 内容衰减, 分发策略 |
+
+### 细粒度子技能（`skills/`，可独立安装调用）
+
+| 任务 | 调用 | 关键词（grep 线索） |
+|------|------|---------------------|
+| SEO 审计与内容营销：关键词聚类、技术 SEO、竞品分析、内容审计 | `skills/seo-auditor/SKILL.md` | seo-auditor, 关键词, 技术SEO, 竞品分析, SERP |
+| 高转化文案撰写：PAS/AIDA/StoryBrand 框架的着陆页与广告文案 | `skills/copywriting-pro/SKILL.md` | copywriting-pro, PAS, AIDA, StoryBrand, 文案, CTA |
+| 内容策略规划：主题集群、编辑日历、内容衰减检测 | `skills/content-strategist/SKILL.md` | content-strategist, 编辑日历, 主题集群, 内容衰减 |
+| 着陆页构建：高转化结构、视觉层次、响应式、CTA 优化 | `skills/landing-page-builder/SKILL.md` | landing-page, 转化率, Hero, 视觉层次, 响应式 |
 
 > 路由规则：先判断任务属于「获取流量 / 创作内容 / 转化承接」哪一类；纯技术 SEO 调 `seo-auditor`，写词调 `copywriting-pro`，排期调 `content-strategist`，落地页调 `landing-page-builder`；需要串联全流程或建立整体方法论时读 `references/` 中的 playbook。
-
-## 细粒度子技能（可单独安装）
-
-| 子技能 | 路径 | 适用 |
-|--------|------|------|
-| seo-auditor | `skills/seo-auditor` | 关键词聚类、技术 SEO、竞品分析、内容审计 |
-| copywriting-pro | `skills/copywriting-pro` | PAS/AIDA/StoryBrand 框架的着陆页与广告文案 |
-| content-strategist | `skills/content-strategist` | 主题集群、编辑日历、内容衰减检测 |
-| landing-page-builder | `skills/landing-page-builder` | 高转化结构、视觉层次、响应式、CTA 优化 |
 
 ## 可运行脚本（scripts/）
 

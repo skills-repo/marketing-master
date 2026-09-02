@@ -119,3 +119,13 @@ if __name__ == "__main__":
 - [ ] 结构化数据（JSON-LD）已部署
 - [ ] 未把付费搜索/社媒投放纳入（超出范围）
 - [ ] 全链路顺序为 SEO→内容→文案→落地，无倒挂
+
+## 6. 与路由的衔接
+
+本篇只负责「四种能力怎么串、先做哪个、代价是什么」。具体写法与命令去对应子技能：
+
+- 关键词研究、技术 SEO 诊断、竞品与 SERP 分析 → `skills/seo-auditor`
+- PAS / AIDA / StoryBrand 框架落成具体文案 → `skills/copywriting-pro`
+- 五段式骨架落成实际页面（视觉层次、响应式、CTA） → `skills/landing-page-builder`
+- 主题集群与编辑日历排期 → `skills/content-strategist`，方法论见 `references/content-strategy-playbook.md`
+- 关键词聚类与内容衰减的确定性计算 → `scripts/keyword_cluster.py`、`scripts/decay_score.py`
