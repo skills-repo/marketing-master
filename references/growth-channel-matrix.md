@@ -46,7 +46,7 @@
 
 ### 3.2 关键词按意图聚类（可运行）
 
-可运行版本见 `scripts/keyword_cluster.py`，支持 `--pair "关键词" "意图"` 或 STDIN 多行：
+可运行版本见 [scripts/keyword_cluster.py](../scripts/keyword_cluster.py)，支持 `--pair "关键词" "意图"` 或 STDIN 多行：
 
 ```python
 # keyword_cluster.py —— 运行: python3 scripts/keyword_cluster.py
@@ -124,8 +124,8 @@ if __name__ == "__main__":
 
 本篇只负责「四种能力怎么串、先做哪个、代价是什么」。具体写法与命令去对应子技能：
 
-- 关键词研究、技术 SEO 诊断、竞品与 SERP 分析 → `skills/seo-auditor`
-- PAS / AIDA / StoryBrand 框架落成具体文案 → `skills/copywriting-pro`
-- 五段式骨架落成实际页面（视觉层次、响应式、CTA） → `skills/landing-page-builder`
-- 主题集群与编辑日历排期 → `skills/content-strategist`，方法论见 `references/content-strategy-playbook.md`
-- 关键词聚类与内容衰减的确定性计算 → `scripts/keyword_cluster.py`、`scripts/decay_score.py`
+- 关键词研究、技术 SEO 诊断、竞品与 SERP 分析 → [skills/seo-auditor](../skills/seo-auditor/SKILL.md)
+- PAS / AIDA / StoryBrand 框架落成具体文案 → [skills/copywriting-pro](../skills/copywriting-pro/SKILL.md)
+- 五段式骨架落成实际页面（视觉层次、响应式、CTA） → [skills/landing-page-builder](../skills/landing-page-builder/SKILL.md)
+- 主题集群与编辑日历排期 → [skills/content-strategist](../skills/content-strategist/SKILL.md)，方法论见 [references/content-strategy-playbook.md](content-strategy-playbook.md)
+- 关键词聚类与内容衰减的确定性计算 → [scripts/keyword_cluster.py](../scripts/keyword_cluster.py)、[scripts/decay_score.py](../scripts/decay_score.py)

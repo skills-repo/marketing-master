@@ -1,6 +1,6 @@
 # 内容策略 Playbook（content-strategy-playbook）
 
-> 适用技能：`skills/content-strategist`（编辑日历、主题集群设计、内容衰减检测、分发策略）。
+> 适用技能：[skills/content-strategist](../skills/content-strategist/SKILL.md)（编辑日历、主题集群设计、内容衰减检测、分发策略）。
 > 本 playbook 提供内容规划的触发条件、决策逻辑、可运行的日历/衰减脚本，以及一份勾选清单。
 
 ## 1. 何时使用本 playbook（选择矩阵）
@@ -47,7 +47,7 @@
 ### 3.2 编辑日历生成（可运行）
 
 下面脚本根据「根支柱 + 频率」输出一份 Markdown 编辑日历，直接可贴进 README/Notion。
-可运行版本见 `scripts/editorial_calendar.py`，支持 `--pillars/--freq/--start/--weeks` 参数化与 STDIN JSON：
+可运行版本见 [scripts/editorial_calendar.py](../scripts/editorial_calendar.py)，支持 `--pillars/--freq/--start/--weeks` 参数化与 STDIN JSON：
 
 ```python
 # editorial_calendar.py —— 运行: python3 scripts/editorial_calendar.py
@@ -76,7 +76,7 @@ if __name__ == "__main__":
 ### 3.3 内容衰减检测（可运行）
 
 给每篇老文输入「发布天数、近期流量较峰值跌幅、是否核心集群」，输出更新优先级。
-可运行版本见 `scripts/decay_score.py`，支持 `--title/--days/--drop/--core` 或 STDIN 多行：
+可运行版本见 [scripts/decay_score.py](../scripts/decay_score.py)，支持 `--title/--days/--drop/--core` 或 STDIN 多行：
 
 ```python
 # decay_score.py —— 运行: python3 scripts/decay_score.py

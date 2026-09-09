@@ -15,10 +15,10 @@ Agent 在以下任意条件满足时使用本仓库技能：
 
 | 技能 | 文件 | 用途 |
 |------|------|------|
-| seo-auditor | `skills/seo-auditor/SKILL.md` | SEO 审计与优化：关键词研究、技术 SEO、内容优化 |
-| copywriting-pro | `skills/copywriting-pro/SKILL.md` | 营销文案撰写：广告语、产品描述、邮件、社交媒体 |
-| content-strategist | `skills/content-strategist/SKILL.md` | 内容策略规划：内容日历、分发渠道、内容复用 |
-| landing-page-builder | `skills/landing-page-builder/SKILL.md` | 着陆页设计与优化：结构、文案、CTA、A/B 测试 |
+| seo-auditor | [skills/seo-auditor/SKILL.md](skills/seo-auditor/SKILL.md) | SEO 审计与优化：关键词研究、技术 SEO、内容优化 |
+| copywriting-pro | [skills/copywriting-pro/SKILL.md](skills/copywriting-pro/SKILL.md) | 营销文案撰写：广告语、产品描述、邮件、社交媒体 |
+| content-strategist | [skills/content-strategist/SKILL.md](skills/content-strategist/SKILL.md) | 内容策略规划：内容日历、分发渠道、内容复用 |
+| landing-page-builder | [skills/landing-page-builder/SKILL.md](skills/landing-page-builder/SKILL.md) | 着陆页设计与优化：结构、文案、CTA、A/B 测试 |
 
 ## 行为规则
 
