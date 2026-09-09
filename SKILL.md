@@ -1,8 +1,8 @@
 ---
 name: marketing-master
 description: >-
-  AI Agent 营销大师技能库：覆盖 SEO 审计与内容营销、高转化文案撰写、内容策略规划、着陆页构建四大能力，让独立开发者与小团队也能专业地推向市场。触发词："SEO"、"关键词研究"、"技术
-  SEO"、"文案"、"PAS"、"AIDA"、"StoryBrand"、"着陆页"、"转化率"、"内容策略"、"编辑日历"、"主题集群"、"内容衰减"。
+  AI Agent 营销大师技能库：覆盖 SEO 审计与内容营销、高转化文案撰写、内容策略规划、着陆页构建、转化率优化（CRO）五大能力，让独立开发者与小团队也能专业地推向市场。触发词："SEO"、"关键词研究"、"技术
+  SEO"、"文案"、"PAS"、"AIDA"、"StoryBrand"、"着陆页"、"转化率"、"内容策略"、"编辑日历"、"主题集群"、"内容衰减"、"CRO"、"A/B 测试"、"表单转化"。
 agent_created: true
 metadata:
   version: 1.0.0
@@ -30,6 +30,7 @@ tags:
 - 需要写**高转化文案**：着陆页、广告、邮件，用 PAS / AIDA / StoryBrand 框架
 - 需要规划**内容策略**：主题集群、编辑日历、内容衰减检测
 - 需要**构建着陆页**：高转化结构、视觉层次、响应式与 CTA 优化
+- 需要做 **转化率优化（CRO）**：着陆页/定价页/表单的转化诊断、CTA 文案与信任提升
 
 ## 能力索引（超级技能路由）
 
@@ -50,6 +51,7 @@ tags:
 | 高转化文案撰写：PAS/AIDA/StoryBrand 框架的着陆页与广告文案 | [skills/copywriting-pro/SKILL.md](skills/copywriting-pro/SKILL.md) | copywriting-pro, PAS, AIDA, StoryBrand, 文案, CTA |
 | 内容策略规划：主题集群、编辑日历、内容衰减检测 | [skills/content-strategist/SKILL.md](skills/content-strategist/SKILL.md) | content-strategist, 编辑日历, 主题集群, 内容衰减 |
 | 着陆页构建：高转化结构、视觉层次、响应式、CTA 优化 | [skills/landing-page-builder/SKILL.md](skills/landing-page-builder/SKILL.md) | landing-page, 转化率, Hero, 视觉层次, 响应式 |
+| 转化率优化（CRO）：着陆页/定价页/表单的转化诊断、CTA 文案、信任与异议处理 | [skills/cro-optimizer/SKILL.md](skills/cro-optimizer/SKILL.md) | cro-optimizer, CRO, 转化率, 表单转化, A/B测试, 信任标识, 异议处理 |
 
 > 路由规则：先判断任务属于「获取流量 / 创作内容 / 转化承接」哪一类；纯技术 SEO 调 `seo-auditor`，写词调 `copywriting-pro`，排期调 `content-strategist`，落地页调 `landing-page-builder`；需要串联全流程或建立整体方法论时读 `references/` 中的 playbook。
 

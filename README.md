@@ -22,6 +22,7 @@
 | ✍️ 文案撰写 | `copywriting-pro` | 营销文案：PAS/AIDA/StoryBrand 框架，着陆页、广告文案 | [衍生](https://skills.sh/onewave-ai/claude-skills/landing-page-copywriter) |
 | 📅 内容策略 | `content-strategist` | 编辑日历、主题集群设计、内容衰减检测、分发策略 | [衍生](https://skills.sh/agricidaniel/claude-blog/blog-calendar) |
 | 🎯 着陆页 | `landing-page-builder` | 着陆页构建：高转化结构、视觉层次、响应式布局、CTA 优化 | [衍生](https://skills.sh/nexu-io/open-design/copywriting) |
+| 📈 转化率优化 | `cro-optimizer` | 转化率优化（CRO）：着陆页/定价页/表单转化诊断、CTA 文案、信任与异议处理 | [衍生](https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro) |
 
 ## 快速开始
 
@@ -64,3 +65,4 @@ npx skills add skills-repo/marketing-master@seo-auditor
 | copywriting-pro | 营销文案：PAS/AIDA/StoryBrand 框架，着陆页、广告文案 |
 | content-strategist | 编辑日历、主题集群设计、内容衰减检测、分发策略 |
 | landing-page-builder | 着陆页构建：高转化结构、视觉层次、响应式布局、CTA 优化 |
+| cro-optimizer | 转化率优化（CRO）：着陆页/定价页/表单转化诊断、CTA 文案、信任与异议处理 |
