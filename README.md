@@ -31,6 +31,7 @@ npx skills add skills-repo/marketing-master@seo-auditor -g -y
 npx skills add skills-repo/marketing-master@copywriting-pro -g -y
 npx skills add skills-repo/marketing-master@content-strategist -g -y
 npx skills add skills-repo/marketing-master@landing-page-builder -g -y
+npx skills add skills-repo/marketing-master@cro-optimizer -g -y
 ```
 
 ## 推荐工作流
@@ -48,7 +49,7 @@ MIT
 
 ## 安装 / Install
 
-整库安装（含全部 4 个子技能）与单技能安装命令如下，按需在终端执行：
+整库安装（含全部 5 个子技能）与单技能安装命令如下，按需在终端执行：
 
 ```
 npx skills add skills-repo/marketing-master
