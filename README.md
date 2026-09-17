@@ -52,8 +52,8 @@ MIT
 整库安装（含全部 5 个子技能）与单技能安装命令如下，按需在终端执行：
 
 ```
-npx skills add skills-repo/marketing-master
-npx skills add skills-repo/marketing-master@seo-auditor
+npx skills add skills-repo/marketing-master -g -y
+npx skills add skills-repo/marketing-master@seo-auditor -g -y
 ```
 
 > 把 `@seo-auditor` 换成任意子技能目录名即可单独安装：`seo-auditor`、`copywriting-pro`、`content-strategist`、`landing-page-builder`。
