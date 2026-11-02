@@ -1,16 +1,16 @@
 ---
 name: marketing-master
 description: >-
-  AI Agent 营销大师技能库：覆盖 SEO 审计与内容营销、高转化文案撰写、内容策略规划、着陆页构建、转化率优化（CRO）五大能力，让独立开发者与小团队也能专业地推向市场。触发词："SEO"、"关键词研究"、"技术
-  SEO"、"文案"、"PAS"、"AIDA"、"StoryBrand"、"着陆页"、"转化率"、"内容策略"、"编辑日历"、"主题集群"、"内容衰减"、"CRO"、"A/B 测试"、"表单转化"。
+  AI Agent 营销大师技能库：覆盖 SEO 审计与内容营销、高转化文案撰写、内容策略规划、着陆页构建、转化率优化（CRO）、付费广告投放与素材迭代六大能力，让独立开发者与小团队也能专业地推向市场。触发词："SEO"、"关键词研究"、"技术
+  SEO"、"文案"、"PAS"、"AIDA"、"StoryBrand"、"着陆页"、"转化率"、"内容策略"、"编辑日历"、"主题集群"、"内容衰减"、"CRO"、"A/B 测试"、"表单转化"、"付费广告"、"ROAS"、"广告素材"、"素材疲劳"。
 agent_created: true
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   category: 营销
   difficulty: 进阶
   platform: skills-repo
   created: 2026-07-26
-  updated: 2026-08-16
+  updated: 2026-11-02
   architecture: superpower
 tags:
   - marketing
@@ -18,6 +18,7 @@ tags:
   - copywriting
   - content-strategy
   - landing-page
+  - paid-ads
 ---
 
 # Marketing Master 营销大师
@@ -31,6 +32,7 @@ tags:
 - 需要规划**内容策略**：主题集群、编辑日历、内容衰减检测
 - 需要**构建着陆页**：高转化结构、视觉层次、响应式与 CTA 优化
 - 需要做 **转化率优化（CRO）**：着陆页/定价页/表单的转化诊断、CTA 文案与信任提升
+- 需要投 **付费广告**：平台与预算选型、账户结构、素材工厂与疲劳轮换、指标熔断
 
 ## 能力索引（超级技能路由）
 
@@ -52,8 +54,9 @@ tags:
 | 内容策略规划：主题集群、编辑日历、内容衰减检测 | [skills/content-strategist/SKILL.md](skills/content-strategist/SKILL.md) | content-strategist, 编辑日历, 主题集群, 内容衰减 |
 | 着陆页构建：高转化结构、视觉层次、响应式、CTA 优化 | [skills/landing-page-builder/SKILL.md](skills/landing-page-builder/SKILL.md) | landing-page, 转化率, Hero, 视觉层次, 响应式 |
 | 转化率优化（CRO）：着陆页/定价页/表单的转化诊断、CTA 文案、信任与异议处理 | [skills/cro-optimizer/SKILL.md](skills/cro-optimizer/SKILL.md) | cro-optimizer, CRO, 转化率, 表单转化, A/B测试, 信任标识, 异议处理 |
+| 付费广告投放与素材迭代：平台预算选型、账户结构（ABO/CBO）、创意即定向、素材疲劳轮换与指标熔断 | [skills/paid-ads/SKILL.md](skills/paid-ads/SKILL.md) | paid-ads, 付费广告, PPC, ROAS, CAC, CPM, ABO, CBO, 素材疲劳, 熔断 |
 
-> 路由规则：先判断任务属于「获取流量 / 创作内容 / 转化承接」哪一类；纯技术 SEO 调 `seo-auditor`，写词调 `copywriting-pro`，排期调 `content-strategist`，落地页调 `landing-page-builder`；需要串联全流程或建立整体方法论时读 `references/` 中的 playbook。
+> 路由规则：先判断任务属于「获取流量 / 创作内容 / 转化承接」哪一类；纯技术 SEO 调 `seo-auditor`，写词调 `copywriting-pro`，排期调 `content-strategist`，落地页调 `landing-page-builder`，付费买量与素材迭代调 `paid-ads`；需要串联全流程或建立整体方法论时读 `references/` 中的 playbook。
 
 ## 可运行脚本（scripts/）
 
@@ -74,6 +77,6 @@ tags:
 
 ## 限制
 
-- 不涉及付费搜索（SEM/PPC）与社交媒体投放
+- 付费投放覆盖采买方法论（`paid-ads`），但不代操作广告账户、不直接执行真实预算变更
 - 不涉及大规模邮件营销自动化与 B2B 企业级策略
-- 文案与 SEO 效果依赖产品定位准确性，不替代专业投放决策
+- 文案、SEO 与投放效果依赖产品定位准确性，不替代专业投放决策

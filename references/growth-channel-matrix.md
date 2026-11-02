@@ -1,6 +1,6 @@
 # 增长渠道矩阵 Playbook（growth-channel-matrix）
 
-> 适用技能：`seo-auditor` / `copywriting-pro` / `landing-page-builder` / `content-strategist`。
+> 适用技能：`seo-auditor` / `copywriting-pro` / `landing-page-builder` / `content-strategist` / `paid-ads`。
 > 本 playbook 解决「该用哪个技能、按什么顺序」的问题，并给出可运行的 SEO/文案/落地页代码。
 
 ## 1. 何时使用哪个技能（选择矩阵）
@@ -11,6 +11,7 @@
 | 把访客变成读者/用户（内容） | `content-strategist` | 主题集群、编辑日历 | 内容计划 |
 | 让文案更会卖（转化） | `copywriting-pro` | PAS/AIDA/StoryBrand | 着陆页/广告文案 |
 | 让页面接得住流量（承接） | `landing-page-builder` | 结构、视觉层次、CTA | 高转化页面 |
+| 用预算放大已验证的转化（付费） | `paid-ads` | 平台选型、账户结构、素材工厂 | 投放计划 + 素材批次 |
 
 **黄金顺序**：先 `seo-auditor` 找机会 → `content-strategist` 排内容 → `copywriting-pro` 写词 → `landing-page-builder` 落地。倒序（先写落地页再补 SEO）往往流量接不住。
 
@@ -104,7 +105,7 @@ if __name__ == "__main__":
 | 文案堆砌关键词 | 读感差、被降权 | 关键词自然融入，框架优先 |
 | 着陆页放多个 CTA | 用户不知所措 | 单页主 CTA 唯一且重复出现 |
 | 技术 SEO 长期不查 | 爬取/索引问题 | 季度跑诊断 |
-| 把社媒/SEM 当本职 | 范围蔓延 | 本库不含付费与社媒投放 |
+| 把社媒/SEM 当本职 | 范围蔓延 | 免费流量链路不代替付费；投放走 `paid-ads`，且先验证转化承接再放大 |
 | 文案脱离产品定位 | 转化虚高不留存 | 先澄清定位再写 |
 
 ## 5. 检查清单
@@ -117,15 +118,16 @@ if __name__ == "__main__":
 - [ ] 主 CTA 唯一、可见、触控区 ≥ 44px
 - [ ] 页面在 375/768/1280 三档无溢出
 - [ ] 结构化数据（JSON-LD）已部署
-- [ ] 未把付费搜索/社媒投放纳入（超出范围）
+- [ ] 付费投放单独走 `paid-ads`，未与免费流量链路混排
 - [ ] 全链路顺序为 SEO→内容→文案→落地，无倒挂
 
 ## 6. 与路由的衔接
 
-本篇只负责「四种能力怎么串、先做哪个、代价是什么」。具体写法与命令去对应子技能：
+本篇只负责「各能力怎么串、先做哪个、代价是什么」。具体写法与命令去对应子技能：
 
 - 关键词研究、技术 SEO 诊断、竞品与 SERP 分析 → [skills/seo-auditor](../skills/seo-auditor/SKILL.md)
 - PAS / AIDA / StoryBrand 框架落成具体文案 → [skills/copywriting-pro](../skills/copywriting-pro/SKILL.md)
 - 五段式骨架落成实际页面（视觉层次、响应式、CTA） → [skills/landing-page-builder](../skills/landing-page-builder/SKILL.md)
 - 主题集群与编辑日历排期 → [skills/content-strategist](../skills/content-strategist/SKILL.md)，方法论见 [references/content-strategy-playbook.md](content-strategy-playbook.md)
+- 付费流量采买、账户结构与素材迭代 → [skills/paid-ads](../skills/paid-ads/SKILL.md)
 - 关键词聚类与内容衰减的确定性计算 → [scripts/keyword_cluster.py](../scripts/keyword_cluster.py)、[scripts/decay_score.py](../scripts/decay_score.py)
